@@ -13,6 +13,8 @@
     "REF:CallingCardNote3Interactable",
     "REF:TargetDossierEvidence",
     "REF:TargetDossierInteractable",
+    "REF:InitiationLetterEvidence",
+    "REF:InitiationLetterInteractable",
     "REF:murdercult"
   ],
   "loadBefore": "",
