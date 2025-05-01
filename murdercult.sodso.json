@@ -116,7 +116,7 @@
       "receiver": 0,
       "vmailOtherParticipants": [],
       "where": 2,
-      "security": 0,
+      "security": 2,
       "priority": 0,
       "ownershipRule": 4
     },
@@ -139,6 +139,70 @@
       "chanceRatio": 0,
       "itemTag": 1,
       "spawnItem": "REF:InteractablePreset|FirstKillLetterInteractable",
+      "vmailThread": "",
+      "vmailProgressThreshold": {
+        "x": 0,
+        "y": 0
+      },
+      "writer": 0,
+      "receiver": 0,
+      "vmailOtherParticipants": [],
+      "where": 2,
+      "security": 1,
+      "priority": 0,
+      "ownershipRule": 4
+    },
+    {
+      "compatibleWithMotives": [
+        "REF:MurderMO|MurderCult"
+      ],
+      "name": "VictimNote1",
+      "compatibleWithAllMotives": 0,
+      "spawnOnPhase": 1,
+      "tryToSpawnWithEachNewMurder": 1,
+      "belongsTo": 1,
+      "chance": 1,
+      "useTraits": 0,
+      "traitModifiers": [],
+      "useIf": 0,
+      "ifTag": 0,
+      "useOrGroup": 0,
+      "orGroup": 2,
+      "chanceRatio": 0.5,
+      "itemTag": 2,
+      "spawnItem": "REF:InteractablePreset|VictimNote1Interactable",
+      "vmailThread": "",
+      "vmailProgressThreshold": {
+        "x": 0,
+        "y": 0
+      },
+      "writer": 1,
+      "receiver": 0,
+      "vmailOtherParticipants": [],
+      "where": 0,
+      "security": 0,
+      "priority": 0,
+      "ownershipRule": 0
+    },
+    {
+      "compatibleWithMotives": [
+        "REF:MurderMO|MurderCult"
+      ],
+      "name": "VictimNote2",
+      "compatibleWithAllMotives": 0,
+      "spawnOnPhase": 2,
+      "tryToSpawnWithEachNewMurder": 0,
+      "belongsTo": 1,
+      "chance": 1,
+      "useTraits": 0,
+      "traitModifiers": [],
+      "useIf": 0,
+      "ifTag": 0,
+      "useOrGroup": 1,
+      "orGroup": 2,
+      "chanceRatio": 0,
+      "itemTag": 2,
+      "spawnItem": "REF:InteractablePreset|VictimNote2Interactable",
       "vmailThread": "",
       "vmailProgressThreshold": {
         "x": 0,
