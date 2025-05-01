@@ -1,7 +1,7 @@
 {
-  "name": "InitationLetterEvidence",
+  "name": "InitiationLetterEvidence",
   "fileType": "EvidencePreset",
   "copyFrom": "EvidencePreset|Note",
-  "presetName": "InitationLetter",
+  "presetName": "InitiationLetterEvidence",
   "ddsDocumentID": "f8c563e1-8d4c-42a4-9b69-cfdb96fe7dbf"
 }

@@ -78,11 +78,11 @@
   "MOleads": [
     {
       "compatibleWithMotives": [],
-      "name": "InitiationVmail",
+      "name": "InitiationLetter",
       "compatibleWithAllMotives": 0,
-      "spawnOnPhase": 2,
+      "spawnOnPhase": 1,
       "tryToSpawnWithEachNewMurder": 1,
-      "belongsTo": 0,
+      "belongsTo": 2,
       "chance": 1,
       "useTraits": 0,
       "traitModifiers": [],
@@ -92,19 +92,19 @@
       "orGroup": 0,
       "chanceRatio": 0,
       "itemTag": 0,
-      "spawnItem": null,
-      "vmailThread": "400185fe-4ffc-4d16-ae3d-aa6252a2fe5f",
+      "spawnItem": "REF:InteractablePreset|InitiationLetterInteractable",
+      "vmailThread": "",
       "vmailProgressThreshold": {
         "x": 0,
         "y": 0
       },
       "writer": 0,
-      "receiver": 2,
+      "receiver": 0,
       "vmailOtherParticipants": [],
-      "where": 0,
+      "where": 2,
       "security": 0,
       "priority": 0,
-      "ownershipRule": 0
+      "ownershipRule": 1
     }
   ],
   "graffiti": [],
