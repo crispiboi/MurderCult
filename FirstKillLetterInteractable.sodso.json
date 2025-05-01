@@ -1,0 +1,10 @@
+{
+  "name": "FirstKillLetterInteractable",
+  "fileType": "InteractablePreset",
+  "copyFrom": "REF:InteractablePreset|SealedEnvelope",
+  "presetName": "FirstKillLetterInteractable",
+  "spawnEvidence": "REF:EvidencePreset|FirstKillLetterEvidence",
+  "fingerprintsEnabled": true,
+  "printsSource": 12,
+  "summaryMessageSource": "cea2ac13-2708-447d-b0f2-41e68abf637e"
+}

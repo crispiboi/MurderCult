@@ -12,7 +12,19 @@
     "x": 0,
     "y": 1
   },
-  "murdererTraitModifiers": [],
+  "murdererTraitModifiers": [
+    {
+      "rule": 0,
+      "traitList": [
+        "REF:CharacterTrait|Interest-Tarot",
+        "REF:CharacterTrait|Interest-Archaeology",
+        "REF:CharacterTrait|Interest-ClassicLiterature",
+        "REF:CharacterTrait|Interest-TheOldEmpire"
+      ],
+      "mustPassForApplication": 1,
+      "scoreModifier": 0
+    }
+  ],
   "murdererJobModifiers": [],
   "murdererCompanyModifiers": [],
   "useMurdererSocialClassRange": false,
@@ -82,7 +94,7 @@
       ],
       "name": "InitiationLetter",
       "compatibleWithAllMotives": 0,
-      "spawnOnPhase": 2,
+      "spawnOnPhase": 1,
       "tryToSpawnWithEachNewMurder": 1,
       "belongsTo": 2,
       "chance": 1,
@@ -106,7 +118,39 @@
       "where": 2,
       "security": 0,
       "priority": 0,
-      "ownershipRule": 1
+      "ownershipRule": 4
+    },
+    {
+      "compatibleWithMotives": [
+        "REF:MurderMO|MurderCult"
+      ],
+      "name": "FirstKillLetter",
+      "compatibleWithAllMotives": 0,
+      "spawnOnPhase": 6,
+      "tryToSpawnWithEachNewMurder": 1,
+      "belongsTo": 2,
+      "chance": 1,
+      "useTraits": 0,
+      "traitModifiers": [],
+      "useIf": 0,
+      "ifTag": 0,
+      "useOrGroup": 0,
+      "orGroup": 0,
+      "chanceRatio": 0,
+      "itemTag": 1,
+      "spawnItem": "REF:InteractablePreset|FirstKillLetterInteractable",
+      "vmailThread": "",
+      "vmailProgressThreshold": {
+        "x": 0,
+        "y": 0
+      },
+      "writer": 0,
+      "receiver": 0,
+      "vmailOtherParticipants": [],
+      "where": 0,
+      "security": 0,
+      "priority": 0,
+      "ownershipRule": 4
     }
   ],
   "graffiti": [],
