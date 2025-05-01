@@ -77,10 +77,12 @@
   "confessionalDDSResponses": [],
   "MOleads": [
     {
-      "compatibleWithMotives": [],
+      "compatibleWithMotives": [
+        "REF:MurderMO|MurderCult"
+      ],
       "name": "InitiationLetter",
       "compatibleWithAllMotives": 0,
-      "spawnOnPhase": 1,
+      "spawnOnPhase": 2,
       "tryToSpawnWithEachNewMurder": 1,
       "belongsTo": 2,
       "chance": 1,

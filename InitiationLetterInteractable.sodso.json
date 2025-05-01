@@ -1,10 +1,10 @@
 {
   "name": "InitiationLetterInteractable",
   "fileType": "InteractablePreset",
-  "copyFrom": "InteractablePreset|Note",
+  "copyFrom": "REF:InteractablePreset|SealedEnvelope",
   "presetName": "InitiationLetterInteractable",
   "spawnEvidence": "REF:EvidencePreset|InitiationLetterEvidence",
-  "fingerprintsEnabled" : true,
-  "printsSource" : 12,
+  "fingerprintsEnabled": true,
+  "printsSource": 12,
   "summaryMessageSource": "f8c563e1-8d4c-42a4-9b69-cfdb96fe7dbf"
 }
