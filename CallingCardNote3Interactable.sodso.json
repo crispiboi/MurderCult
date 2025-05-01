@@ -1,0 +1,10 @@
+{
+  "name": "CallingCardNote3Interactable",
+  "fileType": "InteractablePreset",
+  "copyFrom": "InteractablePreset|Note",
+  "presetName": "CallingCardNote3Interactable",
+  "spawnEvidence": "REF:EvidencePreset|CallingCardNote3Evidence",
+  "fingerprintsEnabled": true,
+  "printsSource": 12,
+  "summaryMessageSource": "020eeacd-0448-4d0e-b828-cf0c81a8abb2"
+}

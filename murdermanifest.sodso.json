@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "fileOrder": [
+    "REF:VictimNote1Evidence",
+    "REF:VictimNote1Interactable",
+    "REF:VictimNote2Evidence",
+    "REF:VictimNote2Interactable",
+    "REF:CallingCardNote1Evidence",
+    "REF:CallingCardNote1Interactable",
+    "REF:CallingCardNote2Evidence",
+    "REF:CallingCardNote2Interactable",
+    "REF:CallingCardNote3Evidence",
+    "REF:CallingCardNote3Interactable",
+    "REF:TargetDossierEvidence",
+    "REF:TargetDossierInteractable",
+    "REF:murdercult"
+  ],
+  "loadBefore": "",
+  "version": 1
+}

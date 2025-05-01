@@ -1,0 +1,8 @@
+{
+  "name": "TargetDossierEvidence",
+  "fileType": "EvidencePreset",
+  "copyFrom": "REF:InteractablePreset|EmployeePhoto",
+  "presetName": "TargetDossierInteractable",
+  "ddsDocumentID": "66d607c8-d269-43e4-8aec-1d97e6102d0a"
+}
+

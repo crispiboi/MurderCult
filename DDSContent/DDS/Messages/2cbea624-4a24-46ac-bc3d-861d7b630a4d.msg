@@ -1,0 +1,1 @@
+{"name":"VictimVmail102","id":"2cbea624-4a24-46ac-bc3d-861d7b630a4d","blocks":[{"blockID":"e4d2d48c-3c62-438a-93d4-bc55a797d6c6","instanceID":"3f573b87-2d3e-4226-b153-6de795e0456e","alwaysDisplay":true,"group":0,"forceScope":0,"useTraits":false,"traitConditions":0,"traits":[]}]}

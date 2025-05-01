@@ -1,0 +1,1 @@
+{"name":"VictimNote102","id":"8319ca4b-1c72-4239-a834-970eb0492a8b","blocks":[{"blockID":"c498697c-9ae5-4116-ac94-cee71460c58f","instanceID":"0482c871-8cee-475e-a216-1fb04f7338ae","alwaysDisplay":true,"group":0,"forceScope":0,"useTraits":false,"traitConditions":0,"traits":[]}]}

@@ -1,0 +1,1 @@
+{"name":"FirstKillVmail01","id":"b2f65f06-3320-4a43-b316-3b1c0148255e","blocks":[{"blockID":"cb59151c-3a26-4a9d-b6bc-2827678875f8","instanceID":"293e47b1-e443-46fd-bc04-a6ba18b2cebe","alwaysDisplay":true,"group":0,"forceScope":0,"useTraits":false,"traitConditions":0,"traits":[]}]}

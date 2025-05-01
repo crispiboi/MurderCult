@@ -1,0 +1,318 @@
+{
+  "presetName": "MurderCult",
+  "notes": "MurderCult",
+  "disabled": false,
+  "compatibleWith": [
+    "REF:MurderPreset|SerialKiller"
+  ],
+  "baseDifficulty": 0,
+  "maximumPotentialScore": 0,
+  "updateThis": false,
+  "pickRandomScoreRange": {
+    "x": 0,
+    "y": 1
+  },
+  "murdererTraitModifiers": [
+    {
+      "rule": "RuleType",
+      "traitList": [
+        "REF:CharacterTrait|Char-Ambitious",
+        "REF:CharacterTrait|Char-Greedy",
+        "REF:CharacterTrait|Char-Egotistic",
+        "REF:CharacterTrait|Char-Hostile",
+        "REF:CharacterTrait|Char-Jealous",
+        "REF:CharacterTrait|Char-Obsessive",
+        "REF:CharacterTrait|Char-Spiteful"
+      ],
+      "mustPassForApplication": 1,
+      "scoreModifier": 0,
+      "copyFrom": null
+    },
+    {
+      "rule": 0,
+      "traitList": [
+        "REF:CharacterTrait|Quirk-Superstitious",
+        "REF:CharacterTrait|Interest-Tarot",
+        "REF:CharacterTrait|Interest-Archaeology",
+        "REF:CharacterTrait|Interest-TheOldEmpire"
+      ],
+      "mustPassForApplication": 1,
+      "scoreModifier": 0
+    }
+  ],
+  "murdererJobModifiers": [],
+  "murdererCompanyModifiers": [],
+  "useMurdererSocialClassRange": false,
+  "murdererClassRange": {
+    "x": 0,
+    "y": 1
+  },
+  "murdererClassRangeBoost": 0,
+  "useHexaco": false,
+  "hexaco": {
+    "outputMin": 1,
+    "outputMax": 10,
+    "enableFeminineMasculine": false,
+    "feminineMasculine": 0,
+    "enableHumility": false,
+    "humility": 0,
+    "enableEmotionality": false,
+    "emotionality": 0,
+    "enableExtraversion": false,
+    "extraversion": 0,
+    "enableAgreeableness": false,
+    "agreeableness": 0,
+    "enableConscientiousness": false,
+    "conscientiousness": 0,
+    "enableCreativity": false,
+    "creativity": 0
+  },
+  "requiresSniperVantageAtHome": false,
+  "weaponsPool": [
+    "REF:MurderWeaponsPool|Blades",
+    "REF:MurderWeaponsPool|Guns"
+  ],
+  "blockDroppingWeapons": false,
+  "allowAnywhere": 0,
+  "allowHome": 1,
+  "allowWork": 0,
+  "allowPublic": 1,
+  "allowStreets": 1,
+  "allowDen": false,
+  "acquaintedSuitabilityBoost": 0,
+  "attractedToSuitabilityBoost": 0,
+  "likeSuitabilityBoost": 0,
+  "sameWorkplaceBoost": 0,
+  "murdererIsTenantBoost": 0,
+  "victimRandomScoreRange": {
+    "x": 0,
+    "y": 1
+  },
+  "victimTraitModifiers": [],
+  "victimJobModifiers": [],
+  "victimCompanyModifiers": [],
+  "useVictimSocialClassRange": false,
+  "victimClassRange": {
+    "x": 0,
+    "y": 1
+  },
+  "victimClassRangeBoost": 0,
+  "monkierDDSMessageList": "522f3a49-0753-4514-8bc8-13f042ee0b6f",
+  "confessionalDDSResponses": [],
+  "MOleads": [
+    {
+      "name": "InitiationVmail",
+      "compatibleWithAllMotives": 1,
+      "compatibleWithMotives": [],
+      "spawnOnPhase": 1,
+      "tryToSpawnWithEachNewMurder": 1,
+      "belongsTo": 2,
+      "chance": 1,
+      "useTraits": 0,
+      "traitModifiers": [],
+      "useIf": 0,
+      "ifTag": 0,
+      "useOrGroup": 0,
+      "orGroup": 0,
+      "chanceRatio": 0,
+      "itemTag": 0,
+      "spawnItem": null,
+      "vmailThread": "400185fe-4ffc-4d16-ae3d-aa6252a2fe5f",
+      "vmailProgressThreshold": {
+        "x": 0,
+        "y": 0
+      },
+      "writer": 0,
+      "receiver": 2,
+      "vmailOtherParticipants": [],
+      "where": 2,
+      "security": 0,
+      "ownershipRule": 1,
+      "copyFrom": null
+    },
+    {
+      "name": "FirstKillVmail",
+      "compatibleWithAllMotives": 1,
+      "compatibleWithMotives": [],
+      "spawnOnPhase": 1,
+      "tryToSpawnWithEachNewMurder": 1,
+      "belongsTo": 2,
+      "chance": 1,
+      "useTraits": 0,
+      "traitModifiers": [],
+      "useIf": 1,
+      "ifTag": 0,
+      "useOrGroup": 0,
+      "orGroup": 0,
+      "chanceRatio": 0,
+      "itemTag": 1,
+      "spawnItem": null,
+      "vmailThread": "9634c97b-e218-41e7-aabf-4ea319052e77",
+      "vmailProgressThreshold": {
+        "x": 0,
+        "y": 0
+      },
+      "writer": 0,
+      "receiver": 2,
+      "vmailOtherParticipants": [],
+      "where": 2,
+      "security": 0,
+      "ownershipRule": 1,
+      "copyFrom": null
+    },
+    {
+      "name": "VictimVmail1",
+      "compatibleWithAllMotives": 1,
+      "compatibleWithMotives": [],
+      "spawnOnPhase": 2,
+      "tryToSpawnWithEachNewMurder": 1,
+      "belongsTo": 1,
+      "chance": 1,
+      "useTraits": 0,
+      "traitModifiers": [],
+      "useIf": 1,
+      "ifTag": 0,
+      "useOrGroup": 0,
+      "orGroup": 0,
+      "chanceRatio": 1,
+      "itemTag": 2,
+      "spawnItem": null,
+      "vmailThread": "a7a226f4-b56b-48f0-8792-c48d0accf495",
+      "vmailProgressThreshold": {
+        "x": 0,
+        "y": 0
+      },
+      "writer": 0,
+      "receiver": 1,
+      "vmailOtherParticipants": [],
+      "where": 0,
+      "security": 0,
+      "priority": 0,
+      "ownershipRule": 0
+    },
+    {
+      "name": "VictimVmail2",
+      "compatibleWithAllMotives": 1,
+      "compatibleWithMotives": [],
+      "spawnOnPhase": 2,
+      "tryToSpawnWithEachNewMurder": 1,
+      "belongsTo": 2,
+      "chance": 1,
+      "useTraits": 0,
+      "traitModifiers": [],
+      "useIf": 1,
+      "ifTag": 1,
+      "useOrGroup": 0,
+      "orGroup": 0,
+      "chanceRatio": 1,
+      "itemTag": 3,
+      "spawnItem": null,
+      "vmailThread": "924ec352-3fbe-4ad3-b0a1-cecdc914ab2d",
+      "vmailProgressThreshold": {
+        "x": 0,
+        "y": 0
+      },
+      "writer": 0,
+      "receiver": 1,
+      "vmailOtherParticipants": [],
+      "where": 0,
+      "security": 0,
+      "priority": 0,
+      "ownershipRule": 0
+    },
+    {
+      "name": "VictimNote1",
+      "compatibleWithAllMotives": 1,
+      "compatibleWithMotives": [],
+      "spawnOnPhase": 5,
+      "tryToSpawnWithEachNewMurder": 1,
+      "belongsTo": 2,
+      "chance": 1,
+      "useTraits": 0,
+      "traitModifiers": [],
+      "useIf": 0,
+      "ifTag": 0,
+      "useOrGroup": 1,
+      "orGroup": 4,
+      "chanceRatio": 0,
+      "itemTag": 4,
+      "spawnItem": "REF:InteractablePreset|VictimNote1Interactable",
+      "vmailThread": "",
+      "vmailProgressThreshold": {
+        "x": 0,
+        "y": 0
+      },
+      "writer": 2,
+      "receiver": 0,
+      "vmailOtherParticipants": [],
+      "where": 0,
+      "security": 0,
+      "priority": 0,
+      "ownershipRule": 4
+    },
+    {
+      "name": "VictimNote2",
+      "compatibleWithAllMotives": 0,
+      "compatibleWithMotives": [],
+      "spawnOnPhase": 5,
+      "tryToSpawnWithEachNewMurder": 1,
+      "belongsTo": 2,
+      "chance": 1,
+      "useTraits": 0,
+      "traitModifiers": [],
+      "useIf": 0,
+      "ifTag": 0,
+      "useOrGroup": 1,
+      "orGroup": 4,
+      "chanceRatio": 0,
+      "itemTag": 4,
+      "spawnItem": "REF:InteractablePreset|VictimNote2Interactable",
+      "vmailThread": "",
+      "vmailProgressThreshold": {
+        "x": 0,
+        "y": 0
+      },
+      "writer": 0,
+      "receiver": 0,
+      "vmailOtherParticipants": [],
+      "where": 0,
+      "security": 0,
+      "priority": 0,
+      "ownershipRule": 4
+    }
+  ],
+  "graffiti": [],
+  "callingCardPool": [
+    {
+      "item": "REF:InteractablePreset|CallingCardNote1Interactable",
+      "origin": "CallingCardOrigin",
+      "randomScoreRange": {
+        "x": 0,
+        "y": 0
+      },
+      "traitModifiers": []
+    },
+    {
+      "item": "REF:InteractablePreset|CallingCardNote2Interactable",
+      "origin": "CallingCardOrigin",
+      "randomScoreRange": {
+        "x": 0,
+        "y": 0
+      },
+      "traitModifiers": []
+    },
+    {
+      "item": "REF:InteractablePreset|CallingCardNote3Interactable",
+      "origin": "CallingCardOrigin",
+      "randomScoreRange": {
+        "x": 0,
+        "y": 0
+      },
+      "traitModifiers": []
+    }
+  ],
+  "playerTaunts": [],
+  "fileType": "MurderMO",
+  "name": "MurderCult",
+  "copyFrom": null
+}

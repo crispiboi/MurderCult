@@ -1,0 +1,10 @@
+{
+  "name": "TargetDossierInteractable",
+  "fileType": "InteractablePreset",
+  "copyFrom": "REF:InteractablePreset|SealedEnvelope",
+  "presetName": "TargetDossierInteractable",
+  "spawnEvidence": "REF:EvidencePreset|TargetDossierEvidence",
+  "fingerprintsEnabled": true,
+  "printsSource": 11,
+  "enableDynamicFingerprints": true
+}

@@ -1,0 +1,1 @@
+{"name":"TargetDossier01","id":"3f954aa7-367a-47df-8a4d-44b0109850a5","blocks":[{"blockID":"557712e1-aadb-4b1b-9791-029e517a1670","instanceID":"c6e4d1eb-bf3b-46c2-8853-7307eadceebd","alwaysDisplay":true,"group":0,"forceScope":0,"useTraits":false,"traitConditions":0,"traits":[]}]}

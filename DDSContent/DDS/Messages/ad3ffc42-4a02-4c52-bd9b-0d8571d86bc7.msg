@@ -1,0 +1,1 @@
+{"name":"InitiationVmail02","id":"ad3ffc42-4a02-4c52-bd9b-0d8571d86bc7","blocks":[{"blockID":"a6e2e0a5-b961-4032-ad8c-733cbcb817fb","instanceID":"f92ddabd-b840-4293-9390-a72fb0b4ea81","alwaysDisplay":true,"group":0,"forceScope":10,"useTraits":false,"traitConditions":0,"traits":[]}]}
