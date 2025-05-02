@@ -9,7 +9,6 @@
   "summaryMessageSource": "d09ff628-8630-482d-b3a5-8745ea315a5f",
   "attemptToStoreInFolder": "REF:EvidencePreset|Bin",
   "folderPlacementChance": 1,
-  "staticImage": null,
   "subObjectClasses": [
     "REF:SubObjectClassPreset|Junk"
   ],

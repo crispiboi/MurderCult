@@ -1,8 +1,43 @@
 {
   "name": "TargetDossierEvidence",
   "fileType": "EvidencePreset",
-  "copyFrom": "REF:InteractablePreset|EmployeePhoto",
+  "copyFrom": "REF:EvidencePreset|EmployeePhoto",
   "presetName": "TargetDossierInteractable",
-  "ddsDocumentID": "66d607c8-d269-43e4-8aec-1d97e6102d0a"
+  "ddsDocumentID": "66d607c8-d269-43e4-8aec-1d97e6102d0a",
+  "factSetup": [
+    {
+      "preset": "REF:FactPreset|PhotoOf",
+      "link": 1,
+      "onlyIfInOwnedPosition": 0,
+      "createOnDiscovery": 1,
+      "forceDiscoveryOnCreation": 1,
+      "switchFindingFactToFrom": 0
+    },
+    {
+      "preset": "REF:FactPreset|FoundAt",
+      "link": 5,
+      "onlyIfInOwnedPosition": 0,
+      "createOnDiscovery": 1,
+      "forceDiscoveryOnCreation": 1,
+      "switchFindingFactToFrom": 0
+    },
+    {
+      "preset": "REF:FactPreset|LivesAtBuilding",
+      "link": 1,
+      "onlyIfInOwnedPosition": 0,
+      "createOnDiscovery": 1,
+      "forceDiscoveryOnCreation": 1,
+      "switchFindingFactToFrom": 0
+    },
+    {
+      "preset": "REF:FactPreset|BelongsTo",
+      "link": 1,
+      "onlyIfInOwnedPosition": 0,
+      "createOnDiscovery": 1,
+      "forceDiscoveryOnCreation": 0,
+      "switchFindingFactToFrom": 0
+    }
+  ],
+  "useInGamePhoto": 1,
+  "useWriter": 1
 }
-
