@@ -1,0 +1,19 @@
+{
+  "name": "KillerNotesCrumpledInteractable",
+  "fileType": "InteractablePreset",
+  "copyFrom": "REF:InteractablePreset|Receipt",
+  "presetName": "KillerNotesCrumpledInteractable",
+  "spawnEvidence": "REF:EvidencePreset|KillerNotesCrumpledEvidence",
+  "fingerprintsEnabled": true,
+  "printsSource": 12,
+  "summaryMessageSource": "d09ff628-8630-482d-b3a5-8745ea315a5f",
+  "attemptToStoreInFolder": "REF:EvidencePreset|Bin",
+  "folderPlacementChance": 1,
+  "staticImage": null,
+  "subObjectClasses": [
+    "REF:SubObjectClassPreset|Junk"
+  ],
+  "backupClasses": [
+    "REF:SubObjectClassPreset|TabletopItemGeneric"
+  ]
+}

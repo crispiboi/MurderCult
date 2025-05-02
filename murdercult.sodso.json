@@ -215,6 +215,38 @@
       "security": 0,
       "priority": 0,
       "ownershipRule": 4
+    },
+    {
+      "compatibleWithMotives": [
+        "REF:MurderMO|MurderCult"
+      ],
+      "name": "KillerNotesCrumpled",
+      "compatibleWithAllMotives": 0,
+      "spawnOnPhase": 1,
+      "tryToSpawnWithEachNewMurder": 1,
+      "belongsTo": 2,
+      "chance": 1,
+      "useTraits": 0,
+      "traitModifiers": [],
+      "useIf": 0,
+      "ifTag": 0,
+      "useOrGroup": 0,
+      "orGroup": 0,
+      "chanceRatio": 0,
+      "itemTag": 3,
+      "spawnItem": "REF:InteractablePreset|KillerNotesCrumpledInteractable",
+      "vmailThread": "",
+      "vmailProgressThreshold": {
+        "x": 0,
+        "y": 0
+      },
+      "writer": 2,
+      "receiver": 0,
+      "vmailOtherParticipants": [],
+      "where": 2,
+      "security": 0,
+      "priority": 0,
+      "ownershipRule": 4
     }
   ],
   "graffiti": [],

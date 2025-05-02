@@ -17,6 +17,8 @@
     "REF:InitiationLetterInteractable",
     "REF:FirstKillLetterEvidence",
     "REF:FirstKillLetterInteractable",
+    "REF:KillerNotesCrumpledEvidence",
+    "REF:KillerNotesCrumpledInteractable",
     "REF:murdercult"
   ],
   "loadBefore": "",
