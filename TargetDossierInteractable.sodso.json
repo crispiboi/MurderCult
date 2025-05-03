@@ -12,6 +12,13 @@
   ],
   "subObjectClasses": [
     "REF:SubObjectClassPreset|EmployeePhoto",
-    "REF:SubObjectClassPreset|DrawerItemGeneric"
+    "REF:SubObjectClassPreset|DrawerItemGeneric",
+    "REF:SubObjectClassPreset|VanityItem",
+    "REF:SubObjectClassPreset|PinnedNote",
+    "REF:SubObjectClassPreset|WorkLocker"
+  ],
+  "backupClasses": [
+    "REF:SubObjectClassPreset|Junk",
+    "REF:SubObjectClassPreset|JunkFloor"
   ]
 }

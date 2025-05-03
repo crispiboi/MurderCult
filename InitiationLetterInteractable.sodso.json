@@ -8,7 +8,10 @@
   "printsSource": 12,
   "summaryMessageSource": "f8c563e1-8d4c-42a4-9b69-cfdb96fe7dbf",
   "subObjectClasses": [
-    "REF:SubObjectClassPreset|DrawerItemGeneric"
+    "REF:SubObjectClassPreset|DrawerItemGeneric",
+    "REF:SubObjectClassPreset|SecretDiary",
+    "REF:SubObjectClassPreset|WorkLocker",
+    "REF:SubObjectClassPreset|PreciousItem"
   ],
   "securityLevel": 2,
   "autoPlacement": 2,

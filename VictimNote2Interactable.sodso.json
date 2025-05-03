@@ -6,5 +6,16 @@
   "spawnEvidence": "REF:EvidencePreset|VictimNote2Evidence",
   "fingerprintsEnabled": true,
   "printsSource": 12,
-  "summaryMessageSource": "70aa3c66-29e3-42d3-beb1-e4eb19215b34"
+  "summaryMessageSource": "70aa3c66-29e3-42d3-beb1-e4eb19215b34",
+  "subObjectClasses": [
+    "REF:SubObjectClassPreset|SecretDiary",
+    "REF:SubObjectClassPreset|KitchenBin",
+    "REF:SubObjectClassPreset|SmallBin"
+  ],
+  "backupClasses": [
+    "REF:SubObjectClassPreset|Junk",
+    "REF:SubObjectClassPreset|JunkFloor"
+  ],
+  "attemptToStoreInFolder": "REF:EvidencePreset|Bin",
+  "folderPlacementChance": 0.8
 }

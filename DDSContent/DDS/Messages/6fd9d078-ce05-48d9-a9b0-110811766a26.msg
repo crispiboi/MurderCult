@@ -1,0 +1,1 @@
+{"name":"KillerReceiptClue104","id":"6fd9d078-ce05-48d9-a9b0-110811766a26","blocks":[{"blockID":"6abd14c2-8860-4bb6-946a-2ddc267958bf","instanceID":"66054b5c-e4ec-4988-9837-f2e8f558fc80","alwaysDisplay":true,"group":0,"forceScope":0,"useTraits":false,"traitConditions":0,"traits":[]}]}

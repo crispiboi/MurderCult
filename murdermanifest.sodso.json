@@ -19,6 +19,9 @@
     "REF:FirstKillLetterInteractable",
     "REF:KillerNotesCrumpledEvidence",
     "REF:KillerNotesCrumpledInteractable",
+    "REF:CultCandleStickInteractable",
+    "REF:KillerReceiptClueEvidence",
+    "REF:KillerReceiptClueInteractable",
     "REF:murdercult"
   ],
   "loadBefore": "",

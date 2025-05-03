@@ -61,8 +61,8 @@
   "allowAnywhere": 0,
   "allowHome": 1,
   "allowWork": 0,
-  "allowPublic": 1,
-  "allowStreets": 1,
+  "allowPublic": 0,
+  "allowStreets": 0,
   "allowDen": false,
   "denFurniture": [],
   "denStyleOverride": [],
@@ -76,7 +76,14 @@
     "x": 0,
     "y": 1
   },
-  "victimTraitModifiers": [],
+  "victimTraitModifiers": [
+    {
+      "rule": 0,
+      "traitList": [],
+      "mustPassForApplication": 0,
+      "scoreModifier": 0
+    }
+  ],
   "victimJobModifiers": [],
   "victimCompanyModifiers": [],
   "useVictimSocialClassRange": false,
@@ -85,7 +92,7 @@
     "y": 1
   },
   "victimClassRangeBoost": 0,
-  "monkierDDSMessageList": "522f3a49-0753-4514-8bc8-13f042ee0b6f",
+  "monkierDDSMessageList": "640611b0-a207-4468-ab04-6408ca9669f7",
   "confessionalDDSResponses": [],
   "MOleads": [
     {
@@ -95,7 +102,7 @@
       "name": "InitiationLetter",
       "compatibleWithAllMotives": 0,
       "spawnOnPhase": 2,
-      "tryToSpawnWithEachNewMurder": 1,
+      "tryToSpawnWithEachNewMurder": 0,
       "belongsTo": 2,
       "chance": 0.5,
       "useTraits": 0,
@@ -161,7 +168,7 @@
       "spawnOnPhase": 1,
       "tryToSpawnWithEachNewMurder": 1,
       "belongsTo": 1,
-      "chance": 1,
+      "chance": 0.75,
       "useTraits": 0,
       "traitModifiers": [],
       "useIf": 0,
@@ -193,7 +200,7 @@
       "spawnOnPhase": 1,
       "tryToSpawnWithEachNewMurder": 0,
       "belongsTo": 1,
-      "chance": 1,
+      "chance": 0.75,
       "useTraits": 0,
       "traitModifiers": [],
       "useIf": 0,
@@ -220,12 +227,12 @@
       "compatibleWithMotives": [
         "REF:MurderMO|MurderCult"
       ],
-      "name": "KillerNotesCrumpled",
+      "name": "KillerNotesCrumpledKillerHome",
       "compatibleWithAllMotives": 0,
       "spawnOnPhase": 1,
       "tryToSpawnWithEachNewMurder": 1,
       "belongsTo": 2,
-      "chance": 1,
+      "chance": 0.85,
       "useTraits": 0,
       "traitModifiers": [],
       "useIf": 0,
@@ -243,7 +250,7 @@
       "writer": 2,
       "receiver": 0,
       "vmailOtherParticipants": [],
-      "where": 2,
+      "where": 0,
       "security": 0,
       "priority": 0,
       "ownershipRule": 4
@@ -257,7 +264,7 @@
       "spawnOnPhase": 1,
       "tryToSpawnWithEachNewMurder": 1,
       "belongsTo": 1,
-      "chance": 1,
+      "chance": 0.6,
       "useTraits": 0,
       "traitModifiers": [],
       "useIf": 0,
@@ -279,6 +286,164 @@
       "security": 1,
       "priority": 0,
       "ownershipRule": 4
+    },
+    {
+      "compatibleWithMotives": [
+        "REF:MurderMO|MurderCult"
+      ],
+      "name": "candlestick1",
+      "compatibleWithAllMotives": 0,
+      "spawnOnPhase": 5,
+      "tryToSpawnWithEachNewMurder": 1,
+      "belongsTo": 2,
+      "chance": 1,
+      "useTraits": 0,
+      "traitModifiers": [],
+      "useIf": 0,
+      "ifTag": 0,
+      "useOrGroup": 0,
+      "orGroup": 0,
+      "chanceRatio": 0,
+      "itemTag": 6,
+      "spawnItem": "REF:InteractablePreset|CultCandleStickInteractable",
+      "vmailThread": "",
+      "vmailProgressThreshold": {
+        "x": 0,
+        "y": 0
+      },
+      "writer": 0,
+      "receiver": 0,
+      "vmailOtherParticipants": [],
+      "where": 0,
+      "security": 0,
+      "priority": 0,
+      "ownershipRule": 4
+    },
+    {
+      "compatibleWithMotives": [
+        "REF:MurderMO|MurderCult"
+      ],
+      "name": "candlestick2",
+      "compatibleWithAllMotives": 0,
+      "spawnOnPhase": 5,
+      "tryToSpawnWithEachNewMurder": 1,
+      "belongsTo": 2,
+      "chance": 0.9,
+      "useTraits": 0,
+      "traitModifiers": [],
+      "useIf": 0,
+      "ifTag": 0,
+      "useOrGroup": 0,
+      "orGroup": 0,
+      "chanceRatio": 0,
+      "itemTag": 7,
+      "spawnItem": "REF:InteractablePreset|CultCandleStickInteractable",
+      "vmailThread": "",
+      "vmailProgressThreshold": {
+        "x": 0,
+        "y": 0
+      },
+      "writer": 0,
+      "receiver": 0,
+      "vmailOtherParticipants": [],
+      "where": 0,
+      "security": 0,
+      "priority": 0,
+      "ownershipRule": 4
+    },
+    {
+      "compatibleWithMotives": [
+        "REF:MurderMO|MurderCult"
+      ],
+      "name": "candlestick3",
+      "compatibleWithAllMotives": 0,
+      "spawnOnPhase": 5,
+      "tryToSpawnWithEachNewMurder": 1,
+      "belongsTo": 2,
+      "chance": 0.8,
+      "useTraits": 0,
+      "traitModifiers": [],
+      "useIf": 0,
+      "ifTag": 0,
+      "useOrGroup": 0,
+      "orGroup": 0,
+      "chanceRatio": 0,
+      "itemTag": 8,
+      "spawnItem": "REF:InteractablePreset|CultCandleStickInteractable",
+      "vmailThread": "",
+      "vmailProgressThreshold": {
+        "x": 0,
+        "y": 0
+      },
+      "writer": 0,
+      "receiver": 0,
+      "vmailOtherParticipants": [],
+      "where": 0,
+      "security": 0,
+      "priority": 0,
+      "ownershipRule": 4
+    },
+    {
+      "compatibleWithMotives": [
+        "REF:MurderMO|MurderCult"
+      ],
+      "name": "KillerNotesCrumpledVictimHome",
+      "compatibleWithAllMotives": 0,
+      "spawnOnPhase": 5,
+      "tryToSpawnWithEachNewMurder": 0,
+      "belongsTo": 2,
+      "chance": 0.8,
+      "useTraits": 0,
+      "traitModifiers": [],
+      "useIf": 0,
+      "ifTag": 0,
+      "useOrGroup": 0,
+      "orGroup": 0,
+      "chanceRatio": 0,
+      "itemTag": 9,
+      "spawnItem": "REF:InteractablePreset|KillerNotesCrumpledInteractable",
+      "vmailThread": "",
+      "vmailProgressThreshold": {
+        "x": 0,
+        "y": 0
+      },
+      "writer": 2,
+      "receiver": 0,
+      "vmailOtherParticipants": [],
+      "where": 0,
+      "security": 0,
+      "priority": 0,
+      "ownershipRule": 4
+    },
+    {
+      "compatibleWithMotives": [],
+      "name": "KillerReceiptClue",
+      "compatibleWithAllMotives": 0,
+      "spawnOnPhase": 5,
+      "tryToSpawnWithEachNewMurder": 1,
+      "belongsTo": 2,
+      "chance": 0.8,
+      "useTraits": 0,
+      "traitModifiers": [],
+      "useIf": 0,
+      "ifTag": 0,
+      "useOrGroup": 0,
+      "orGroup": 0,
+      "chanceRatio": 0,
+      "itemTag": 10,
+      "spawnItem": "REF:InteractablePreset|KillerReceiptClueInteractable",
+      "vmailThread": "",
+      "vmailProgressThreshold": {
+        "x": 0,
+        "y": 0
+      },
+      "writer": 2,
+      "receiver": 0,
+      "vmailOtherParticipants": [],
+      "where": 0,
+      "security": 0,
+      "priority": 0,
+      "ownershipRule": 4
     }
   ],
   "graffiti": [],
@@ -288,7 +453,7 @@
       "origin": 0,
       "randomScoreRange": {
         "x": 1,
-        "y": 2
+        "y": 3
       },
       "traitModifiers": []
     },
@@ -297,7 +462,7 @@
       "origin": 0,
       "randomScoreRange": {
         "x": 1,
-        "y": 2
+        "y": 3
       },
       "traitModifiers": []
     },
@@ -306,7 +471,7 @@
       "origin": 0,
       "randomScoreRange": {
         "x": 1,
-        "y": 2
+        "y": 3
       },
       "traitModifiers": []
     }

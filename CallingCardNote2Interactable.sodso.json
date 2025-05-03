@@ -6,5 +6,6 @@
   "spawnEvidence": "REF:EvidencePreset|CallingCardNote2Evidence",
   "fingerprintsEnabled": true,
   "printsSource": 12,
-  "summaryMessageSource": "e8e47a8c-d9e1-416e-a803-acfe2150630f"
+  "summaryMessageSource": "e8e47a8c-d9e1-416e-a803-acfe2150630f",
+  "fingerprintDensity": 4
 }

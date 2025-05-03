@@ -1,0 +1,10 @@
+{
+  "name": "CultCandleStickInteractable",
+  "fileType": "InteractablePreset",
+  "copyFrom": "InteractablePreset|CandleStick",
+  "presetName": "CultCandleStickInteractable",
+  "fingerprintsEnabled": true,
+  "printsSource": 12,
+  "fingerprintDensity": 3,
+  "enableDynamicFingerprints": true
+}

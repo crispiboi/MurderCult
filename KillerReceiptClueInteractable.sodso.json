@@ -1,14 +1,14 @@
 {
-  "name": "KillerNotesCrumpledInteractable",
+  "name": "KillerReceiptClueInteractable",
   "fileType": "InteractablePreset",
   "copyFrom": "REF:InteractablePreset|CrumpledPaperCorporateKiller",
-  "presetName": "KillerNotesCrumpledInteractable",
-  "spawnEvidence": "REF:EvidencePreset|KillerNotesCrumpledEvidence",
+  "presetName": "KillerReceiptClueInteractable",
+  "spawnEvidence": "REF:EvidencePreset|KillerReceiptClueEvidence",
   "fingerprintsEnabled": true,
   "printsSource": 12,
-  "summaryMessageSource": "d09ff628-8630-482d-b3a5-8745ea315a5f",
+  "summaryMessageSource": "4ada1c3e-8eb1-4d05-8917-75ea9576c59a",
   "attemptToStoreInFolder": "REF:EvidencePreset|Bin",
-  "folderPlacementChance": 0.75,
+  "folderPlacementChance": 0.2,
   "subObjectClasses": [
     "REF:SubObjectClassPreset|KitchenBin",
     "REF:SubObjectClassPreset|SmallBin"

@@ -6,5 +6,18 @@
   "spawnEvidence": "REF:EvidencePreset|FirstKillLetterEvidence",
   "fingerprintsEnabled": true,
   "printsSource": 12,
-  "summaryMessageSource": "cea2ac13-2708-447d-b0f2-41e68abf637e"
+  "summaryMessageSource": "cea2ac13-2708-447d-b0f2-41e68abf637e",
+  "subObjectClasses": [
+    "REF:SubObjectClassPreset|DrawerItemGeneric",
+    "REF:SubObjectClassPreset|SecretDiary",
+    "REF:SubObjectClassPreset|WorkLocker",
+    "REF:SubObjectClassPreset|PreciousItem"
+  ],
+  "securityLevel": 2,
+  "autoPlacement": 2,
+  "attemptToStoreInFolder": null,
+  "folderPlacementChance": 1,
+  "backupClasses": [
+    "REF:SubObjectClassPreset|TabletopItemGeneric"
+  ]
 }
