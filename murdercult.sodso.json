@@ -94,10 +94,10 @@
       ],
       "name": "InitiationLetter",
       "compatibleWithAllMotives": 0,
-      "spawnOnPhase": 1,
+      "spawnOnPhase": 2,
       "tryToSpawnWithEachNewMurder": 1,
       "belongsTo": 2,
-      "chance": 1,
+      "chance": 0.5,
       "useTraits": 0,
       "traitModifiers": [],
       "useIf": 0,
@@ -116,7 +116,7 @@
       "receiver": 0,
       "vmailOtherParticipants": [],
       "where": 2,
-      "security": 2,
+      "security": 0,
       "priority": 0,
       "ownershipRule": 4
     },
@@ -129,7 +129,7 @@
       "spawnOnPhase": 6,
       "tryToSpawnWithEachNewMurder": 1,
       "belongsTo": 2,
-      "chance": 1,
+      "chance": 0.5,
       "useTraits": 0,
       "traitModifiers": [],
       "useIf": 0,
@@ -166,9 +166,9 @@
       "traitModifiers": [],
       "useIf": 0,
       "ifTag": 0,
-      "useOrGroup": 0,
+      "useOrGroup": 1,
       "orGroup": 2,
-      "chanceRatio": 0.5,
+      "chanceRatio": 1,
       "itemTag": 2,
       "spawnItem": "REF:InteractablePreset|VictimNote1Interactable",
       "vmailThread": "",
@@ -190,7 +190,7 @@
       ],
       "name": "VictimNote2",
       "compatibleWithAllMotives": 0,
-      "spawnOnPhase": 2,
+      "spawnOnPhase": 1,
       "tryToSpawnWithEachNewMurder": 0,
       "belongsTo": 1,
       "chance": 1,
@@ -200,7 +200,7 @@
       "ifTag": 0,
       "useOrGroup": 1,
       "orGroup": 2,
-      "chanceRatio": 0,
+      "chanceRatio": 1,
       "itemTag": 2,
       "spawnItem": "REF:InteractablePreset|VictimNote2Interactable",
       "vmailThread": "",
@@ -287,8 +287,8 @@
       "item": "REF:InteractablePreset|CallingCardNote1Interactable",
       "origin": 0,
       "randomScoreRange": {
-        "x": 0,
-        "y": 0
+        "x": 1,
+        "y": 2
       },
       "traitModifiers": []
     },
@@ -296,8 +296,8 @@
       "item": "REF:InteractablePreset|CallingCardNote2Interactable",
       "origin": 0,
       "randomScoreRange": {
-        "x": 0,
-        "y": 0
+        "x": 1,
+        "y": 2
       },
       "traitModifiers": []
     },
@@ -305,8 +305,8 @@
       "item": "REF:InteractablePreset|CallingCardNote3Interactable",
       "origin": 0,
       "randomScoreRange": {
-        "x": 0,
-        "y": 0
+        "x": 1,
+        "y": 2
       },
       "traitModifiers": []
     }

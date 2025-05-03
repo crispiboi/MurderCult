@@ -1,10 +1,17 @@
 {
   "name": "TargetDossierInteractable",
   "fileType": "InteractablePreset",
-  "copyFrom": "REF:InteractablePreset|Photo",
+  "copyFrom": "REF:InteractablePreset|EmployeePhoto",
   "presetName": "TargetDossierInteractable",
   "spawnEvidence": "REF:EvidencePreset|TargetDossierEvidence",
   "fingerprintsEnabled": true,
   "printsSource": 12,
-  "enableDynamicFingerprints": true
+  "enableDynamicFingerprints": true,
+  "actionsPreset": [
+    "REF:InteractableActionsPreset|Inspectable"
+  ],
+  "subObjectClasses": [
+    "REF:SubObjectClassPreset|EmployeePhoto",
+    "REF:SubObjectClassPreset|DrawerItemGeneric"
+  ]
 }

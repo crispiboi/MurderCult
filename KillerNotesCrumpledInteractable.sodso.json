@@ -10,7 +10,9 @@
   "attemptToStoreInFolder": "REF:EvidencePreset|Bin",
   "folderPlacementChance": 1,
   "subObjectClasses": [
-    "REF:SubObjectClassPreset|Junk"
+    "REF:SubObjectClassPreset|Junk",
+    "REF:SubObjectClassPreset|KitchenBin",
+    "REF:SubObjectClassPreset|SmallBin"
   ],
   "backupClasses": [
     "REF:SubObjectClassPreset|TabletopItemGeneric"
