@@ -250,7 +250,7 @@
       "writer": 2,
       "receiver": 0,
       "vmailOtherParticipants": [],
-      "where": 0,
+      "where": 2,
       "security": 0,
       "priority": 0,
       "ownershipRule": 4
@@ -416,13 +416,15 @@
       "ownershipRule": 4
     },
     {
-      "compatibleWithMotives": [],
+      "compatibleWithMotives": [
+        "REF:MurderMO|MurderCult"
+      ],
       "name": "KillerReceiptClue",
       "compatibleWithAllMotives": 0,
       "spawnOnPhase": 5,
       "tryToSpawnWithEachNewMurder": 1,
       "belongsTo": 2,
-      "chance": 0.8,
+      "chance": 1,
       "useTraits": 0,
       "traitModifiers": [],
       "useIf": 0,
