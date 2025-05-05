@@ -6,5 +6,11 @@
   "fingerprintsEnabled": true,
   "printsSource": 12,
   "fingerprintDensity": 3,
-  "enableDynamicFingerprints": true
+  "enableDynamicFingerprints": true,
+  "isLight": "REF:LightingPreset|GasLantern",
+  "lightswitch": 0,
+  "actionsPreset": [
+    "REF:InteractableActionsPreset|SecondaryLightNoSound",
+    "REF:InteractableActionsPreset|ApartmentPlacement"
+  ]
 }

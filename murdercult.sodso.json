@@ -119,7 +119,7 @@
         "x": 0,
         "y": 0
       },
-      "writer": 0,
+      "writer": 1,
       "receiver": 0,
       "vmailOtherParticipants": [],
       "where": 2,
@@ -151,7 +151,7 @@
         "x": 0,
         "y": 0
       },
-      "writer": 0,
+      "writer": 1,
       "receiver": 0,
       "vmailOtherParticipants": [],
       "where": 2,
@@ -248,7 +248,7 @@
         "y": 0
       },
       "writer": 2,
-      "receiver": 0,
+      "receiver": 2,
       "vmailOtherParticipants": [],
       "where": 2,
       "security": 0,
@@ -408,7 +408,7 @@
         "y": 0
       },
       "writer": 2,
-      "receiver": 0,
+      "receiver": 1,
       "vmailOtherParticipants": [],
       "where": 0,
       "security": 0,
