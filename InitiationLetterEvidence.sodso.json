@@ -3,5 +3,23 @@
   "fileType": "EvidencePreset",
   "copyFrom": "EvidencePreset|Note",
   "presetName": "InitiationLetterEvidence",
-  "ddsDocumentID": "f8c563e1-8d4c-42a4-9b69-cfdb96fe7dbf"
+  "ddsDocumentID": "f8c563e1-8d4c-42a4-9b69-cfdb96fe7dbf",
+  "factSetup": [
+    {
+      "preset": "REF:FactPreset|FoundAt",
+      "link": 5,
+      "onlyIfInOwnedPosition": 0,
+      "createOnDiscovery": 1,
+      "forceDiscoveryOnCreation": 0,
+      "switchFindingFactToFrom": 0
+    },
+    {
+      "preset": "REF:FactPreset|To",
+      "link": 2,
+      "onlyIfInOwnedPosition": 0,
+      "createOnDiscovery": 1,
+      "forceDiscoveryOnCreation": 1,
+      "switchFindingFactToFrom": 0
+    }
+  ]
 }

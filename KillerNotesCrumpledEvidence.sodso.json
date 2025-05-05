@@ -3,5 +3,31 @@
   "fileType": "EvidencePreset",
   "copyFrom": "EvidencePreset|Receipt",
   "presetName": "KillerNotesCrumpledEvidence",
-  "ddsDocumentID": "d09ff628-8630-482d-b3a5-8745ea315a5f"
+  "ddsDocumentID": "d09ff628-8630-482d-b3a5-8745ea315a5f",
+  "factSetup": [
+    {
+      "preset": "REF:FactPreset|FoundAt",
+      "link": 0,
+      "onlyIfInOwnedPosition": 0,
+      "createOnDiscovery": 1,
+      "forceDiscoveryOnCreation": 0,
+      "switchFindingFactToFrom": 0
+    }
+  ],
+  "addFactLinks": [
+    {
+      "subject": 0,
+      "factDictionary": "",
+      "key": 31,
+      "discovery": 1
+    }
+  ],
+  "keyMergeOnDiscovery": [
+    {
+      "link": 1,
+      "mergeKeys": [
+        31
+      ]
+    }
+  ]
 }

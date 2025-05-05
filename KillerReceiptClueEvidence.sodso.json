@@ -3,5 +3,39 @@
   "fileType": "EvidencePreset",
   "copyFrom": "EvidencePreset|Receipt",
   "presetName": "KillerReceiptClueEvidence",
-  "ddsDocumentID": "4ada1c3e-8eb1-4d05-8917-75ea9576c59a"
+  "ddsDocumentID": "4ada1c3e-8eb1-4d05-8917-75ea9576c59a",
+  "factSetup": [
+    {
+      "preset": "REF:FactPreset|FoundAt",
+      "link": 5,
+      "onlyIfInOwnedPosition": 0,
+      "createOnDiscovery": 1,
+      "forceDiscoveryOnCreation": 0,
+      "switchFindingFactToFrom": 0
+    },
+    {
+      "preset": "REF:FactPreset|To",
+      "link": 2,
+      "onlyIfInOwnedPosition": 0,
+      "createOnDiscovery": 1,
+      "forceDiscoveryOnCreation": 1,
+      "switchFindingFactToFrom": 0
+    }
+  ],
+  "keyMergeOnDiscovery": [
+    {
+      "link": 1,
+      "mergeKeys": [
+        31
+      ]
+    }
+  ],
+  "addFactLinks": [
+    {
+      "subject": 0,
+      "factDictionary": "",
+      "key": 31,
+      "discovery": 1
+    }
+  ]
 }
